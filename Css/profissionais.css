@@ -1,0 +1,247 @@
+body {
+    height: auto;   
+    margin: 0 auto;
+    background-color: #F5F5F5; 
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin: 0;
+    background: linear-gradient(to bottom, rgb(19, 94, 160), #273186);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#menu {
+    margin: 0 auto;
+    display: flex;
+    background-color: rgb(19, 94, 160);
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid  #f9f9fa;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    z-index: 3; 
+}
+
+#menu a {
+    color: #ecf1ec;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-transform: uppercase;
+    background-color:rgb(19, 94, 160);
+    border-radius: 100px;
+}
+
+#menu a:hover {
+    margin: 0 10px;
+    border: 1px solid #ecf0f1;
+    border-radius: 100px;
+    background-color: rgb(15, 76, 129);
+    font-size: 22px;
+    margin-bottom: 2px;
+    border-bottom: 6px solid #ecf0f1;
+    color: azure;
+}
+
+.logosNomeSite {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    
+}
+
+.logos img {
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#logoIF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 4px;
+    width: 150px;
+    height: 145px;
+    border-radius: 20px;
+    border: 10px solid rgb(15, 76, 129);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra sutil */
+}
+
+#logoIF img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#logoProjeto {
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: 10px solid rgb(15, 76, 129);
+    width: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra sutil */
+}
+
+#titulo_Site {
+    text-align: center;
+    margin-top: 20px;
+    color: whitesmoke; /* Alterei a cor do texto para um cinza mais escuro */
+    font-size: large;
+}
+
+
+.NomeSecao {
+    
+    width: 1000px;
+    background-color: #ffffff; /* Alterei a cor de fundo para branco */
+    color:rgb(19, 94, 160);
+    border-top: 10px solid rgb(19, 94, 160);
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NomeSecao h1{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    font-size: 28px;;
+}
+
+.blocoConteudo{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: 120px;
+    margin-right: 120px;
+    height: auto;
+    background-color:rgba(187, 185, 183,0.2);
+    border-radius: 10px;
+    line-height: 1.8; /* Ajuste o valor conforme necessário */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.blocoTituloImagemProfissional {
+    text-align: center;
+}
+
+.blocoTituloImagemProfissional h1{
+    font-style: italic;
+    font-size: 23px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(19, 94, 160);
+    }
+
+.blocoTituloImagemProfissional img{
+    width:400px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.blocoSubtituloItens{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    width:800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(170, 188, 221, 0.3);
+    border: solid 1px;
+    border-radius: 70px 0 70px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+#subtituloProfissional{
+    margin-left: 30px;
+    font-size: 23px;
+    color: rgb(19, 94, 160);
+}
+
+.responsabilidadesProfissional{
+    color: rgb(19, 94, 160);
+}
+
+.itensProfissional li{
+    padding: 7px;
+    font-size: 20px;
+}
+
+#conclusaoProfissional{
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(19, 94, 160);
+    font-weight: bold;
+}
+
+.Main {
+    padding-top: 20px;
+    padding-bottom: 26px;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+main{
+    position: relative;
+    margin-bottom: 100px;
+
+}
+
+footer {
+    background-color:  rgb(19, 94, 160);
+    color: #ecf1ec;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+footer nav {
+    display: flex;
+    
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* Ajuste a margem conforme necessário */
+}
+
+.rodape img {
+    max-width: 50px; /* ou o tamanho desejado */
+    max-height: 50px; /* ou o tamanho desejado */
+    margin-bottom: 10px;
+   
+}
+
+.redeSocial {
+    text-decoration: none;
+    color: #ecf1ec;
+    font-size: 16px;
+}
